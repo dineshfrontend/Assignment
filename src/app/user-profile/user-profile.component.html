@@ -1,0 +1,42 @@
+<div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center">
+    <mat-card class="box">
+        <mat-card-header>
+            <mat-card-title>Profile Information</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            <div fxLayout="row" class="profile" fxLayoutAlign="center center">
+                <div fxFlex="40">
+                    <label class="profile-title">Name </label>
+                </div>
+                <div fxFlex="10">
+                    <span class="profile-value"> : </span>
+                </div>
+                <div fxFlex="50">
+                    <span class="profile-value" id="name">{{profileDetails.name}}</span>
+                </div>
+            </div>
+            <div fxLayout="row" class="profile" fxLayoutAlign="center center">
+                <div fxFlex="40">
+                    <label class="profile-title">Email </label>
+                </div>
+                <div fxFlex="10">
+                    <span class="profile-value"> : </span>
+                </div>
+                <div fxFlex="50">
+                    <span class="profile-value" id="email">{{profileDetails.email}}</span>
+                </div>
+            </div>
+            <div fxLayout="row" class="profile" fxLayoutAlign="center start">
+                <div fxFlex="40">
+                    <label class="profile-title">Bio </label>
+                </div>
+                <div fxFlex="10">
+                    <span class="profile-value"> : </span>
+                </div>
+                <div fxFlex="50">
+                    <span class="profile-value" id="bio">{{profileDetails.bio}}</span>
+                </div>
+            </div>
+        </mat-card-content>
+    </mat-card>
+</div>
